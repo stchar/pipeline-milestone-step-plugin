@@ -32,7 +32,7 @@ class MilestoneAction extends LabelAction implements StageAction {
         super(label);
     }
 
-    @Override 
+    @Override
     public String getStageName() {
         return getDisplayName();
     }
